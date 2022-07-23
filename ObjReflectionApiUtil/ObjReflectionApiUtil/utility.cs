@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -6,10 +7,12 @@ using System.Threading.Tasks;
 
 namespace ObjReflectionApiUtil
 {
-    public class utility
+    public class utility : Iutility
     {
+        private readonly ILogger _logger;
         public utility()
         {
+            _logger = Logger.Logger.Instance;
         }
 
         public ObjProperty? StructObjectsInfo<T>(T obj, string objName = "")
@@ -46,6 +49,7 @@ namespace ObjReflectionApiUtil
             }
             catch (Exception ex)
             {
+                _logger.Error($"error at {nameof(StructObjectsInfo)}",ex);
                 return null;
             }
         }

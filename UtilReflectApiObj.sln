@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjReflectionApiUtil", "Obj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilReflectApiPrintStructObjTestProject", "UtilReflectApiPrintStructObjTestProject\UtilReflectApiPrintStructObjTestProject.csproj", "{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{ED8E9F10-28DB-49C4-BD0A-6D2B9C09856C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8E9F10-28DB-49C4-BD0A-6D2B9C09856C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8E9F10-28DB-49C4-BD0A-6D2B9C09856C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8E9F10-28DB-49C4-BD0A-6D2B9C09856C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8E9F10-28DB-49C4-BD0A-6D2B9C09856C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

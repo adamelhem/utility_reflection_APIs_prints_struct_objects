@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cZLKInyoNctitl6tZT3B8dszWKekAXZr6flOJ2rH3WOzncGFlBK4NTWSmHpUCRvquUqOTuq6GOGFqCfGp8E9Ww==",
+  "dgSpecHash": "Xtkwn+03LgrcuguPJH9sGRyYtT+dJIYZLBgM86Qcr0lTJwmyOdkZRokdOL+l7dJFpbc2AA/p6MZXLSBtps7u+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\ObjReflectionApiUtil.csproj",
+  "projectFilePath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\Logger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adam Melhem\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
     "C:\\Users\\Adam Melhem\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",

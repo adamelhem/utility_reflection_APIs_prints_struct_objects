@@ -1,0 +1,10 @@
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\bin\Debug\netcoreapp3.0\Logger.deps.json
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\bin\Debug\netcoreapp3.0\Logger.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\bin\Debug\netcoreapp3.0\Logger.pdb
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.csproj.AssemblyReference.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.AssemblyInfoInputs.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.AssemblyInfo.cs
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\Logger\obj\Debug\netcoreapp3.0\Logger.pdb

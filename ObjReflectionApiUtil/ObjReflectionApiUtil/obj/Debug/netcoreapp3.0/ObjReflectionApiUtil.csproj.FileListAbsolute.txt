@@ -12,3 +12,16 @@ C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\
 C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.dll
 C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.pdb
 C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.genruntimeconfig.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\NLog.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\NLog.Extensions.Logging.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Logger.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\Logger.pdb
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.csproj.CopyComplete

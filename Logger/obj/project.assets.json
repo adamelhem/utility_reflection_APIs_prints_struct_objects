@@ -137,20 +137,6 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
-      },
-      "Logger/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.0",
-        "dependencies": {
-          "NLog": "5.0.1",
-          "NLog.Extensions.Logging": "5.0.1"
-        },
-        "compile": {
-          "bin/placeholder/Logger.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Logger.dll": {}
-        }
       }
     }
   },
@@ -372,16 +358,12 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Logger/1.0.0": {
-      "type": "project",
-      "path": "../../Logger/Logger.csproj",
-      "msbuildProject": "../../Logger/Logger.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Logger >= 1.0.0"
+      "NLog >= 5.0.1",
+      "NLog.Extensions.Logging >= 5.0.1"
     ]
   },
   "packageFolders": {
@@ -391,11 +373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\ObjReflectionApiUtil.csproj",
-      "projectName": "ObjReflectionApiUtil",
-      "projectPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\ObjReflectionApiUtil.csproj",
+      "projectUniqueName": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\Logger.csproj",
+      "projectName": "Logger",
+      "projectPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\Logger.csproj",
       "packagesPath": "C:\\Users\\Adam Melhem\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\obj\\",
+      "outputPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -415,11 +397,7 @@
       "frameworks": {
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
-          "projectReferences": {
-            "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\Logger.csproj": {
-              "projectPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\Logger\\Logger.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -431,6 +409,16 @@
     "frameworks": {
       "netcoreapp3.0": {
         "targetAlias": "netcoreapp3.0",
+        "dependencies": {
+          "NLog": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          },
+          "NLog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
