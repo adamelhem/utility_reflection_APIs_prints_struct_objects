@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace ObjReflectionApiUtil
 {
@@ -22,7 +23,7 @@ namespace ObjReflectionApiUtil
 
             var structObjectsPrint = new utility().StructObjectsInfo(p);
 
-            Console.WriteLine($"APIs Reflection struct objects print :{structObjectsPrint}");
+            Debug.WriteLine($"{structObjectsPrint}");
         }
     }
 }

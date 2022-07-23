@@ -7,8 +7,8 @@ namespace ObjReflectionApiUtil
     public interface ITypeProperties<T>
     {
         public Type ObjType { get; set; }
-        public string ObjTypeName { get;}
+        public string ObjInstanceName { get; set; }
         public object ObjValue { get; set; }
-        public List<T> ObjProperties {  get; set; }
+        public IList<T> ObjProperties {  get; set; }
     }
 }

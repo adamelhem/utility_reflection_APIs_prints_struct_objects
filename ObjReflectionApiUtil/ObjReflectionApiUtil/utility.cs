@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
@@ -10,32 +12,46 @@ namespace ObjReflectionApiUtil
         {
         }
 
-        public ObjProperty StructObjectsInfo<T>(T obj)
+        public ObjProperty? StructObjectsInfo<T>(T obj, string objName = "")
         {
-            var objType = obj.GetType();
-
-            var ClassProperties = new ObjProperty
+            try
             {
-                ObjType = objType,
-                ObjProperties = new List<ObjProperty>(),
-                ObjValue = obj
-            };
+
+                var objType = obj.GetType();
+                var objProperties = objType.GetProperties();
+
+                var ClassProperties = new ObjProperty
+                {
+                    ObjType = objType,
+                    ObjProperties = new List<ObjProperty?>(),
+                    ObjValue = obj,
+                    ObjInstanceName = objName
+                };
 
 
-            if (objType.IsPrimitive || objType == typeof(string))
-            {
+                if (IsPrimitiveOrString(objType))
+                {
+                    return ClassProperties;
+                }
+
+                var propertiesInfo = obj.GetType().GetProperties();
+                foreach (var prop in propertiesInfo)
+                {
+                    var objValue = prop.GetValue(obj);
+                    var objValueName = prop.Name;
+                    ClassProperties.ObjProperties.Add(StructObjectsInfo(objValue, objValueName));
+                }
+
                 return ClassProperties;
             }
-
-            var propertiesInfo = obj.GetType().GetProperties();
-            foreach (var prop in propertiesInfo)
+            catch (Exception ex)
             {
-                var objValue = prop.GetValue(obj);
-                ClassProperties.ObjProperties.Add(StructObjectsInfo(objValue));
+                return null;
             }
-
-            return ClassProperties;
         }
+
+        private static bool IsPrimitiveOrString(Type objType) =>
+                objType.IsPrimitive || objType == typeof(string);
 
     }
 }
