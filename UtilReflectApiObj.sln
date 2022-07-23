@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjReflectionApiUtil", "ObjReflectionApiUtil\ObjReflectionApiUtil\ObjReflectionApiUtil.csproj", "{D2B2BCD0-EA80-4453-954E-3BBBC61E76DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilReflectApiPrintStructObjTestProject", "UtilReflectApiPrintStructObjTestProject\UtilReflectApiPrintStructObjTestProject.csproj", "{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D2B2BCD0-EA80-4453-954E-3BBBC61E76DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B2BCD0-EA80-4453-954E-3BBBC61E76DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B2BCD0-EA80-4453-954E-3BBBC61E76DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC50EF4F-8CBB-44A3-A514-BD6B27F1EF79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
