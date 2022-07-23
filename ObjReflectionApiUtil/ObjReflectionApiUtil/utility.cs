@@ -12,29 +12,26 @@ namespace ObjReflectionApiUtil
 
         public ObjProperty StructObjectsInfo<T>(T obj)
         {
+            var objType = obj.GetType();
 
             var ClassProperties = new ObjProperty
             {
-                ObjType = obj.GetType(),
-                ObjProperties = new List<ObjProperty>()
+                ObjType = objType,
+                ObjProperties = new List<ObjProperty>(),
+                ObjValue = obj
             };
 
-            var propertiesInfo = obj.GetType().GetProperties();
 
-
-            if (ClassProperties.ObjType.IsPrimitive || ClassProperties.ObjType == typeof(string))
+            if (objType.IsPrimitive || objType == typeof(string))
             {
                 return ClassProperties;
             }
 
-
+            var propertiesInfo = obj.GetType().GetProperties();
             foreach (var prop in propertiesInfo)
             {
-                var objProperty = new ObjProperty();
-                objProperty.ObjValue = prop.GetValue(obj);
-                objProperty.ObjType = prop.PropertyType;
-                ClassProperties.ObjProperties.Add(objProperty);
-                ClassProperties.ObjProperties.Add(StructObjectsInfo(objProperty.ObjValue));
+                var objValue = prop.GetValue(obj);
+                ClassProperties.ObjProperties.Add(StructObjectsInfo(objValue));
             }
 
             return ClassProperties;
