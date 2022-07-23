@@ -1,9 +1,9 @@
 ﻿namespace ObjReflectionApiUtil
 {
-    internal class Name
+    public class Name
     {
 
-        internal Name()
+        public Name()
         {
         }
 

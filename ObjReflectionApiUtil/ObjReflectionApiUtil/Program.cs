@@ -7,8 +7,6 @@ namespace ObjReflectionApiUtil
     {
         static void Main(string[] args)
         {
-            var obj = new object();
-
             var n = new Name()
             {
                 firstName = "Bill",

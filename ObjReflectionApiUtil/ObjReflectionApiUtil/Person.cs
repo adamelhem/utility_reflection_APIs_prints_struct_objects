@@ -1,12 +1,12 @@
 ﻿namespace ObjReflectionApiUtil
 {
-    internal class Person
+    public class Person
     {
-        internal Person()
+        public Person()
         {
         }
 
-        public int age { get; internal set; }
-        public Name name { get; internal set; }
+        public int age { get;  set; }
+        public Name name { get;  set; }
     }
 }

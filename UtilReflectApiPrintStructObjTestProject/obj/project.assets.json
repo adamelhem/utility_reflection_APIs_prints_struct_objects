@@ -1225,6 +1225,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ObjReflectionApiUtil/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/ObjReflectionApiUtil.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ObjReflectionApiUtil.dll": {}
+        }
       }
     }
   },
@@ -4607,13 +4617,19 @@
         "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ObjReflectionApiUtil/1.0.0": {
+      "type": "project",
+      "path": "../ObjReflectionApiUtil/ObjReflectionApiUtil/ObjReflectionApiUtil.csproj",
+      "msbuildProject": "../ObjReflectionApiUtil/ObjReflectionApiUtil/ObjReflectionApiUtil.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "NUnit >= 3.13.3",
-      "NUnit3TestAdapter >= 3.16.1"
+      "NUnit3TestAdapter >= 3.16.1",
+      "ObjReflectionApiUtil >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4647,7 +4663,11 @@
       "frameworks": {
         "netcoreapp3.0": {
           "targetAlias": "netcoreapp3.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\ObjReflectionApiUtil.csproj": {
+              "projectPath": "C:\\Users\\Adam Melhem\\source\\repos\\utility_reflection_APIs_prints_struct_objects\\ObjReflectionApiUtil\\ObjReflectionApiUtil\\ObjReflectionApiUtil.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
