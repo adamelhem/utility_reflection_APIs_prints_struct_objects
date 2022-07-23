@@ -1,0 +1,14 @@
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.csproj.AssemblyReference.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.AssemblyInfoInputs.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.AssemblyInfo.cs
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.csproj.CoreCompileInputs.cache
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.exe
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.deps.json
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.runtimeconfig.json
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.runtimeconfig.dev.json
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\bin\Debug\netcoreapp3.0\ObjReflectionApiUtil.pdb
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.dll
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.pdb
+C:\Users\Adam Melhem\source\repos\utility_reflection_APIs_prints_struct_objects\ObjReflectionApiUtil\ObjReflectionApiUtil\obj\Debug\netcoreapp3.0\ObjReflectionApiUtil.genruntimeconfig.cache
